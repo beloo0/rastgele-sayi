@@ -22,6 +22,6 @@ void main() {
             break;
         }
     }
-    int puan= 100-(toplamtahmin-1);
+    int puan= 100-((toplamtahmin-1)*10);
     System.out.println("tebrikler oyunu tamamladınız puanınız:"+puan);
 }
